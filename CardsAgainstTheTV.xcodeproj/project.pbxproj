@@ -12,8 +12,15 @@
 		2B57CF8B1D5541FE004070B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B57CF891D5541FE004070B7 /* Main.storyboard */; };
 		2B57CF8D1D5541FE004070B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B57CF8C1D5541FE004070B7 /* Assets.xcassets */; };
 		2B57CF901D5541FE004070B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B57CF8E1D5541FE004070B7 /* LaunchScreen.storyboard */; };
-		2B57CF981D5542BD004070B7 /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B57CF971D5542BD004070B7 /* Secrets.swift */; };
 		8A2CD56F145B10C43B1ACF44 /* Pods_CardsAgainstTheTV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DEE0371520253EC2957CBF4 /* Pods_CardsAgainstTheTV.framework */; };
+		8F38CC0D1D56703F004BDB52 /* cards_pg13.json in Resources */ = {isa = PBXBuildFile; fileRef = 8F38CC0B1D56703F004BDB52 /* cards_pg13.json */; };
+		8F38CC0E1D56703F004BDB52 /* cards.json in Resources */ = {isa = PBXBuildFile; fileRef = 8F38CC0C1D56703F004BDB52 /* cards.json */; };
+		8F38CC111D567D5E004BDB52 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F38CC101D567D5E004BDB52 /* Card.swift */; };
+		8F38CC131D56818D004BDB52 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F38CC121D56818D004BDB52 /* GameState.swift */; };
+		8F38CC161D568254004BDB52 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F38CC151D568254004BDB52 /* Constants.swift */; };
+		8F38CC181D5684AC004BDB52 /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F38CC171D5684AC004BDB52 /* Secrets.swift */; };
+		8F38CC1A1D56851D004BDB52 /* CardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F38CC191D56851D004BDB52 /* CardManager.swift */; };
+		8F38CC1C1D569989004BDB52 /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F38CC1B1D569989004BDB52 /* CardCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,8 +31,15 @@
 		2B57CF8C1D5541FE004070B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B57CF8F1D5541FE004070B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B57CF911D5541FE004070B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2B57CF971D5542BD004070B7 /* Secrets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Secrets.swift; path = ../Secrets.swift; sourceTree = "<group>"; };
 		7DEE0371520253EC2957CBF4 /* Pods_CardsAgainstTheTV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CardsAgainstTheTV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F38CC0B1D56703F004BDB52 /* cards_pg13.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cards_pg13.json; sourceTree = "<group>"; };
+		8F38CC0C1D56703F004BDB52 /* cards.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cards.json; sourceTree = "<group>"; };
+		8F38CC101D567D5E004BDB52 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		8F38CC121D56818D004BDB52 /* GameState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
+		8F38CC151D568254004BDB52 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8F38CC171D5684AC004BDB52 /* Secrets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
+		8F38CC191D56851D004BDB52 /* CardManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardManager.swift; sourceTree = "<group>"; };
+		8F38CC1B1D569989004BDB52 /* CardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
 		A7D3C6F5A172901A0DFDE034 /* Pods-CardsAgainstTheTV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardsAgainstTheTV.release.xcconfig"; path = "Pods/Target Support Files/Pods-CardsAgainstTheTV/Pods-CardsAgainstTheTV.release.xcconfig"; sourceTree = "<group>"; };
 		BC095105DE1F3F435D0F6E35 /* Pods-CardsAgainstTheTV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardsAgainstTheTV.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CardsAgainstTheTV/Pods-CardsAgainstTheTV.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -71,15 +85,46 @@
 		2B57CF841D5541FE004070B7 /* CardsAgainstTheTV */ = {
 			isa = PBXGroup;
 			children = (
-				2B57CF971D5542BD004070B7 /* Secrets.swift */,
+				8F38CC141D56823E004BDB52 /* Helpers */,
+				8F38CC0A1D567001004BDB52 /* cards */,
+				8F38CC171D5684AC004BDB52 /* Secrets.swift */,
+				8F38CC191D56851D004BDB52 /* CardManager.swift */,
 				2B57CF851D5541FE004070B7 /* AppDelegate.swift */,
 				2B57CF871D5541FE004070B7 /* ViewController.swift */,
+				8F38CC1B1D569989004BDB52 /* CardCell.swift */,
+				8F38CC0F1D567D30004BDB52 /* Model */,
 				2B57CF891D5541FE004070B7 /* Main.storyboard */,
 				2B57CF8C1D5541FE004070B7 /* Assets.xcassets */,
 				2B57CF8E1D5541FE004070B7 /* LaunchScreen.storyboard */,
 				2B57CF911D5541FE004070B7 /* Info.plist */,
 			);
 			path = CardsAgainstTheTV;
+			sourceTree = "<group>";
+		};
+		8F38CC0A1D567001004BDB52 /* cards */ = {
+			isa = PBXGroup;
+			children = (
+				8F38CC0B1D56703F004BDB52 /* cards_pg13.json */,
+				8F38CC0C1D56703F004BDB52 /* cards.json */,
+			);
+			name = cards;
+			sourceTree = "<group>";
+		};
+		8F38CC0F1D567D30004BDB52 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8F38CC101D567D5E004BDB52 /* Card.swift */,
+				8F38CC121D56818D004BDB52 /* GameState.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		8F38CC141D56823E004BDB52 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				8F38CC151D568254004BDB52 /* Constants.swift */,
+			);
+			name = Helpers;
 			sourceTree = "<group>";
 		};
 		A4F7C34E0C0F5B32CDD2A852 /* Pods */ = {
@@ -154,6 +199,8 @@
 			files = (
 				2B57CF901D5541FE004070B7 /* LaunchScreen.storyboard in Resources */,
 				2B57CF8D1D5541FE004070B7 /* Assets.xcassets in Resources */,
+				8F38CC0D1D56703F004BDB52 /* cards_pg13.json in Resources */,
+				8F38CC0E1D56703F004BDB52 /* cards.json in Resources */,
 				2B57CF8B1D5541FE004070B7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -214,8 +261,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B57CF881D5541FE004070B7 /* ViewController.swift in Sources */,
-				2B57CF981D5542BD004070B7 /* Secrets.swift in Sources */,
+				8F38CC181D5684AC004BDB52 /* Secrets.swift in Sources */,
+				8F38CC131D56818D004BDB52 /* GameState.swift in Sources */,
+				8F38CC1C1D569989004BDB52 /* CardCell.swift in Sources */,
+				8F38CC1A1D56851D004BDB52 /* CardManager.swift in Sources */,
 				2B57CF861D5541FE004070B7 /* AppDelegate.swift in Sources */,
+				8F38CC111D567D5E004BDB52 /* Card.swift in Sources */,
+				8F38CC161D568254004BDB52 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
