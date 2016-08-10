@@ -15,7 +15,7 @@ class StartScreenViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-//        self.view.backgroundColor = UIColor.colorWithHex("76f45b", alpha: 1.0)
+        self.view.backgroundColor = UIColor.colorWithHex("76f45b", alpha: 1.0)
         setUpStackView()
         
     }
@@ -54,6 +54,6 @@ class StartScreenViewController: UIViewController {
 
 }
 
-extension StartScreenViewController {
+extension StartScreenViewController: UITextFieldDelegate {
     
 }
