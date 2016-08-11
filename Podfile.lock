@@ -23,19 +23,19 @@ PODS:
     - OMGHTTPURLRQ/FormURLEncode
     - OMGHTTPURLRQ/UserAgent
   - OMGHTTPURLRQ/UserAgent (3.2.0)
-  - PromiseKit (3.4.2):
-    - PromiseKit/Foundation (= 3.4.2)
-    - PromiseKit/QuartzCore (= 3.4.2)
-    - PromiseKit/UIKit (= 3.4.2)
-  - PromiseKit/CorePromise (3.4.2)
-  - PromiseKit/Foundation (3.4.2):
+  - PromiseKit (3.4.4):
+    - PromiseKit/Foundation (= 3.4.4)
+    - PromiseKit/QuartzCore (= 3.4.4)
+    - PromiseKit/UIKit (= 3.4.4)
+  - PromiseKit/CorePromise (3.4.4)
+  - PromiseKit/Foundation (3.4.4):
     - OMGHTTPURLRQ (~> 3.2.0)
     - PromiseKit/CorePromise
-  - PromiseKit/QuartzCore (3.4.2):
+  - PromiseKit/QuartzCore (3.4.4):
     - PromiseKit/CorePromise
-  - PromiseKit/UIKit (3.4.2):
+  - PromiseKit/UIKit (3.4.4):
     - PromiseKit/CorePromise
-  - SnapKit (0.21.1)
+  - SnapKit (0.22.0)
   - SVProgressHUD (2.0.3)
 
 DEPENDENCIES:
@@ -52,8 +52,8 @@ SPEC CHECKSUMS:
   GoogleSymbolUtilities: 33117db1b5f290c6fbf259585e4885b4c84b98d7
   GoogleUtilities: 56c5ac05b7aa5dc417a1bb85221a9516e04d7032
   OMGHTTPURLRQ: 1e54807cb7d5dbb506926e53498e1e9ac5720c79
-  PromiseKit: 58b5af222ac334fd36c83b0669747be16eecdf90
-  SnapKit: bbad04cb016c7cead63965f16b00c09318d271ee
+  PromiseKit: c19e89e2e827eef17a356604c90fe9e3d2181e93
+  SnapKit: 0dd2fd157330f1ea11fd84da13e6be8a7a22bae0
   SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
 
 PODFILE CHECKSUM: 7318a26aeea6e43c3b2e7dfcecc42e842ec18589
