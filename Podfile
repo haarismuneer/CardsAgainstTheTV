@@ -7,5 +7,6 @@ target 'CardsAgainstTheTV' do
 
   # Pods for CardsAgainstTheTV
   pod 'SnapKit'
+  pod 'SwiftyButton'
 
 end

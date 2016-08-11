@@ -1,12 +1,20 @@
 PODS:
+  - PureLayout (3.0.2)
   - SnapKit (0.21.1)
+  - SwiftyButton (0.4.0):
+    - SwiftyButton/CustomContent (= 0.4.0)
+  - SwiftyButton/CustomContent (0.4.0):
+    - PureLayout (~> 3.0)
 
 DEPENDENCIES:
   - SnapKit
+  - SwiftyButton
 
 SPEC CHECKSUMS:
+  PureLayout: 4d550abe49a94f24c2808b9b95db9131685fe4cd
   SnapKit: bbad04cb016c7cead63965f16b00c09318d271ee
+  SwiftyButton: fffcc0d82b2b5f9ec1681f20ee9c67bed0d5c73b
 
-PODFILE CHECKSUM: 02a3e7e9805a7ec2b423adb83d929860e614652d
+PODFILE CHECKSUM: 32d1fd9ed4813de4f130381432f09354b0eefc8e
 
 COCOAPODS: 1.0.1
