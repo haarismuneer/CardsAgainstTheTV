@@ -37,6 +37,12 @@ PODS:
     - PromiseKit/CorePromise
   - SnapKit (0.22.0)
   - SVProgressHUD (2.0.3)
+  - PureLayout (3.0.2)
+  - SnapKit (0.21.1)
+  - SwiftyButton (0.4.0):
+    - SwiftyButton/CustomContent (= 0.4.0)
+  - SwiftyButton/CustomContent (0.4.0):
+    - PureLayout (~> 3.0)
 
 DEPENDENCIES:
   - Firebase
@@ -57,5 +63,6 @@ SPEC CHECKSUMS:
   SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
 
 PODFILE CHECKSUM: 7318a26aeea6e43c3b2e7dfcecc42e842ec18589
+
 
 COCOAPODS: 1.0.1
