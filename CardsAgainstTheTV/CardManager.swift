@@ -9,7 +9,6 @@
 import Foundation
 
 
-
 class CardManager{
     
     //TODO: Add checks for empty deck

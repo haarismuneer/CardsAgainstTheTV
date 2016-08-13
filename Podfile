@@ -8,8 +8,6 @@ target 'CardsAgainstTheTV' do
   pod 'SVProgressHUD'
   pod 'SnapKit'
   pod 'PromiseKit'
-
-  # Pods for CardsAgainstTheTV
   pod 'SnapKit'
   pod 'SwiftyButton'
 
