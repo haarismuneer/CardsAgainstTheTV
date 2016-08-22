@@ -5,11 +5,16 @@ PODS:
     - FirebaseAnalytics (~> 3.3)
   - Firebase/Core (3.4.0):
     - Firebase/Analytics
+  - Firebase/Database (3.4.0):
+    - Firebase/Analytics
+    - FirebaseDatabase (= 3.0.2)
   - FirebaseAnalytics (3.3.0):
     - FirebaseInstanceID (~> 1.0)
     - GoogleInterchangeUtilities (~> 1.2)
     - GoogleSymbolUtilities (~> 1.1)
     - GoogleUtilities (~> 1.2)
+  - FirebaseDatabase (3.0.2):
+    - FirebaseAnalytics (~> 3.2)
   - FirebaseInstanceID (1.0.8)
   - GoogleInterchangeUtilities (1.2.1):
     - GoogleSymbolUtilities (~> 1.0)
@@ -42,17 +47,21 @@ PODS:
     - SwiftyButton/CustomContent (= 0.4.0)
   - SwiftyButton/CustomContent (0.4.0):
     - PureLayout (~> 3.0)
+  - TGLParallaxCarousel (0.2.1)
 
 DEPENDENCIES:
   - Firebase
+  - Firebase/Database
   - PromiseKit
   - SnapKit
   - SVProgressHUD
   - SwiftyButton
+  - TGLParallaxCarousel
 
 SPEC CHECKSUMS:
   Firebase: 754562547af419cc2f4b15247fee419081924bc2
   FirebaseAnalytics: 228be2991cb28efb96cdafc4d62f64680e615c69
+  FirebaseDatabase: 59bea2e7dfd81b3b8b2f8e396caf1a52c2ced6f7
   FirebaseInstanceID: ba1e640935235e5fac39dfa816fe7660e72e1a8a
   GoogleInterchangeUtilities: def8415a862effc67d549d5b5b0b9c7a2f97d4de
   GoogleSymbolUtilities: 33117db1b5f290c6fbf259585e4885b4c84b98d7
@@ -63,7 +72,8 @@ SPEC CHECKSUMS:
   SnapKit: bbad04cb016c7cead63965f16b00c09318d271ee
   SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
   SwiftyButton: fffcc0d82b2b5f9ec1681f20ee9c67bed0d5c73b
+  TGLParallaxCarousel: 7736edf9e26a3f08f32d0a24fcb0c93edc8253ad
 
-PODFILE CHECKSUM: 2f2e90b7304463be3c1a8231eb8005db6bf08fda
+PODFILE CHECKSUM: 2ec29150ee5f1fa8036533153c14b8e921b2e4fa
 
 COCOAPODS: 1.0.1

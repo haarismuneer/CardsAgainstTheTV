@@ -9,6 +9,7 @@
 import UIKit
 import SnapKit
 import SwiftyButton
+import Firebase
 
 class StartScreenViewController: UIViewController {
     
@@ -82,7 +83,25 @@ class StartScreenViewController: UIViewController {
         }
     }
     
+    func randomAlphaNumericString(length: Int) -> String {
+        
+        let allowedChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+        let allowedCharsCount = UInt32(allowedChars.characters.count)
+        var randomString = ""
+        
+        for _ in (0..<length) {
+            let randomNum = Int(arc4random_uniform(allowedCharsCount))
+            let newCharacter = allowedChars[allowedChars.startIndex.advancedBy(randomNum)]
+            randomString += String(newCharacter)
+        }
+        
+        return randomString
+    }
     func newGameButtonTapped() {
+        
+        print("new game button tapped")
+        let customString = randomAlphaNumericString(4)
+        print(customString)
         
         if nameTextField.text?.characters.count < 2 {
             self.showAlert("Error", message: "Please enter a name with at least 2 characters before creating or joining a game.")

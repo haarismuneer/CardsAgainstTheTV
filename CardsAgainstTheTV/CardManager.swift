@@ -43,7 +43,7 @@ class CardManager{
     class func dealCards() -> [Card]{
         var dealtCards = [Card]()
         
-        for i in 0...6{
+        for _ in 0...6{
             dealtCards.append(CardManager.gameManager.whiteCards.popLast()!)
         }
         return dealtCards

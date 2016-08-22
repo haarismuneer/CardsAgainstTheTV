@@ -14,6 +14,7 @@
 		2B57CF9A1D56AC5D004070B7 /* StartScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B57CF991D56AC5D004070B7 /* StartScreenViewController.swift */; };
 		2B57CF9C1D56BC28004070B7 /* HexColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B57CF9B1D56BC28004070B7 /* HexColor.swift */; };
 		8A2CD56F145B10C43B1ACF44 /* Pods_CardsAgainstTheTV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DEE0371520253EC2957CBF4 /* Pods_CardsAgainstTheTV.framework */; };
+		8F09352A1D6A1F1C00A10739 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F0935291D6A1F1C00A10739 /* GoogleService-Info.plist */; };
 		8F38CC0D1D56703F004BDB52 /* cards_pg13.json in Resources */ = {isa = PBXBuildFile; fileRef = 8F38CC0B1D56703F004BDB52 /* cards_pg13.json */; };
 		8F38CC0E1D56703F004BDB52 /* cards.json in Resources */ = {isa = PBXBuildFile; fileRef = 8F38CC0C1D56703F004BDB52 /* cards.json */; };
 		8F38CC111D567D5E004BDB52 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F38CC101D567D5E004BDB52 /* Card.swift */; };
@@ -35,6 +36,7 @@
 		2B57CF991D56AC5D004070B7 /* StartScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartScreenViewController.swift; sourceTree = "<group>"; };
 		2B57CF9B1D56BC28004070B7 /* HexColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HexColor.swift; path = ../HexColor.swift; sourceTree = "<group>"; };
 		7DEE0371520253EC2957CBF4 /* Pods_CardsAgainstTheTV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CardsAgainstTheTV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F0935291D6A1F1C00A10739 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8F38CC0B1D56703F004BDB52 /* cards_pg13.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cards_pg13.json; sourceTree = "<group>"; };
 		8F38CC0C1D56703F004BDB52 /* cards.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cards.json; sourceTree = "<group>"; };
 		8F38CC101D567D5E004BDB52 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 				8F38CC0F1D567D30004BDB52 /* Model */,
 				2B57CF891D5541FE004070B7 /* Main.storyboard */,
 				2B57CF991D56AC5D004070B7 /* StartScreenViewController.swift */,
+				8F0935291D6A1F1C00A10739 /* GoogleService-Info.plist */,
 				8FC05AD31D5FCD80004F71DE /* Resources */,
 			);
 			path = CardsAgainstTheTV;
@@ -185,6 +188,7 @@
 				TargetAttributes = {
 					2B57CF811D5541FE004070B7 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = KXY9EDFTF5;
 					};
 				};
 			};
@@ -212,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B57CF901D5541FE004070B7 /* LaunchScreen.storyboard in Resources */,
+				8F09352A1D6A1F1C00A10739 /* GoogleService-Info.plist in Resources */,
 				2B57CF8D1D5541FE004070B7 /* Assets.xcassets in Resources */,
 				8F38CC0D1D56703F004BDB52 /* cards_pg13.json in Resources */,
 				8F38CC0E1D56703F004BDB52 /* cards.json in Resources */,
@@ -327,7 +332,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Flatiron School, Inc (KXY9EDFTF5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Flatiron School, Inc (KXY9EDFTF5)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -349,6 +355,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "36e6408a-44d6-41a6-a438-b279cfe1ced6";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -373,7 +380,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Flatiron School, Inc (KXY9EDFTF5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Flatiron School, Inc (KXY9EDFTF5)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -388,6 +396,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "36e6408a-44d6-41a6-a438-b279cfe1ced6";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -399,10 +408,13 @@
 			baseConfigurationReference = BC095105DE1F3F435D0F6E35 /* Pods-CardsAgainstTheTV.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = CardsAgainstTheTV/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.flatironschool.CardsAgainstTheTV;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.flatironschool.team-lemonade";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -411,10 +423,13 @@
 			baseConfigurationReference = A7D3C6F5A172901A0DFDE034 /* Pods-CardsAgainstTheTV.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = CardsAgainstTheTV/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.flatironschool.CardsAgainstTheTV;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.flatironschool.team-lemonade";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
