@@ -3,6 +3,9 @@ PODS:
     - Firebase/Core (= 3.4.0)
   - Firebase/Analytics (3.4.0):
     - FirebaseAnalytics (~> 3.3)
+  - Firebase/Auth (3.4.0):
+    - Firebase/Analytics
+    - FirebaseAuth (= 3.0.4)
   - Firebase/Core (3.4.0):
     - Firebase/Analytics
   - Firebase/Database (3.4.0):
@@ -13,10 +16,20 @@ PODS:
     - GoogleInterchangeUtilities (~> 1.2)
     - GoogleSymbolUtilities (~> 1.1)
     - GoogleUtilities (~> 1.2)
+  - FirebaseAuth (3.0.4):
+    - FirebaseAnalytics (~> 3.2)
+    - GoogleNetworkingUtilities (~> 1.2)
+    - GoogleParsingUtilities (~> 1.1)
+    - GoogleUtilities (~> 1.2)
   - FirebaseDatabase (3.0.2):
     - FirebaseAnalytics (~> 3.2)
   - FirebaseInstanceID (1.0.8)
   - GoogleInterchangeUtilities (1.2.1):
+    - GoogleSymbolUtilities (~> 1.0)
+  - GoogleNetworkingUtilities (1.2.1):
+    - GoogleSymbolUtilities (~> 1.0)
+  - GoogleParsingUtilities (1.1.1):
+    - GoogleNetworkingUtilities (~> 1.0)
     - GoogleSymbolUtilities (~> 1.0)
   - GoogleSymbolUtilities (1.1.1)
   - GoogleUtilities (1.3.1):
@@ -51,6 +64,7 @@ PODS:
 
 DEPENDENCIES:
   - Firebase
+  - Firebase/Auth
   - Firebase/Database
   - PromiseKit
   - SnapKit
@@ -61,9 +75,12 @@ DEPENDENCIES:
 SPEC CHECKSUMS:
   Firebase: 754562547af419cc2f4b15247fee419081924bc2
   FirebaseAnalytics: 228be2991cb28efb96cdafc4d62f64680e615c69
+  FirebaseAuth: 26fd291c3b552fc9658420b867520d5ae080421c
   FirebaseDatabase: 59bea2e7dfd81b3b8b2f8e396caf1a52c2ced6f7
   FirebaseInstanceID: ba1e640935235e5fac39dfa816fe7660e72e1a8a
   GoogleInterchangeUtilities: def8415a862effc67d549d5b5b0b9c7a2f97d4de
+  GoogleNetworkingUtilities: 3e83269048cfb498dc7ec83ab36813360965c74f
+  GoogleParsingUtilities: 30b3896f9ee167dc78747f013d3de157ced1cadf
   GoogleSymbolUtilities: 33117db1b5f290c6fbf259585e4885b4c84b98d7
   GoogleUtilities: 56c5ac05b7aa5dc417a1bb85221a9516e04d7032
   OMGHTTPURLRQ: 1e54807cb7d5dbb506926e53498e1e9ac5720c79
@@ -74,6 +91,6 @@ SPEC CHECKSUMS:
   SwiftyButton: fffcc0d82b2b5f9ec1681f20ee9c67bed0d5c73b
   TGLParallaxCarousel: 7736edf9e26a3f08f32d0a24fcb0c93edc8253ad
 
-PODFILE CHECKSUM: 2ec29150ee5f1fa8036533153c14b8e921b2e4fa
+PODFILE CHECKSUM: 2aa39d295e0e3f4b370568e2caaf32d0c34b5a57
 
 COCOAPODS: 1.0.1

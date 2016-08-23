@@ -6,6 +6,7 @@ target 'CardsAgainstTheTV' do
   use_frameworks!
   pod 'Firebase'
   pod 'Firebase/Database'
+  pod 'Firebase/Auth'
   pod 'SVProgressHUD'
   pod 'SnapKit'
   pod 'PromiseKit'

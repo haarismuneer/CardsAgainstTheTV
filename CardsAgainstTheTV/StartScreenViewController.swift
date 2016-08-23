@@ -17,6 +17,8 @@ class StartScreenViewController: UIViewController {
     var nameTextField: UITextField!
     var newGameButton: SwiftyButton!
     var joinGameButton: SwiftyButton!
+    
+    var ref: FIRDatabaseReference!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -85,6 +87,10 @@ class StartScreenViewController: UIViewController {
     
     func randomAlphaNumericString(length: Int) -> String {
         
+        FIRAuth.auth()?.signInAnonymouslyWithCompletion({ (user, error) in
+            
+        })
+        
         let allowedChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
         let allowedCharsCount = UInt32(allowedChars.characters.count)
         var randomString = ""
@@ -94,6 +100,12 @@ class StartScreenViewController: UIViewController {
             let newCharacter = allowedChars[allowedChars.startIndex.advancedBy(randomNum)]
             randomString += String(newCharacter)
         }
+        var roomData = [String:String]()
+        roomData["user"] = FIRAuth.auth()?.currentUser?.uid
+        self.ref = FIRDatabase.database().reference()
+        self.ref.child("room").child(randomString).childByAutoId().setValue(roomData)
+        
+        
         
         return randomString
     }
